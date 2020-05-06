@@ -1,0 +1,95 @@
+.container {
+    max-width: $width;
+    margin: 0 auto;
+
+    .section {
+        margin: 4rem 0;
+    }
+
+    p {
+        color: $font-color;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        margin-bottom: 1.25rem;
+    }
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    .lead {
+        width: 75%;
+        font-size: 1.1rem;
+    }
+}
+
+.skills {
+    .toolbox {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        row-gap: 10px;
+
+        .skill-container {
+            justify-self: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: fit-content;
+    
+            & > span {
+                font-size: 0.8rem;
+            }
+    
+            .skill-icon {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}
+
+.projects {
+    .project {
+        margin-bottom: 3rem;
+    }
+
+    .project-title {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .project-caption {
+        text-align: center;
+    }
+
+    .project-screenshot {
+        p {
+            color: $light-font-color;
+        }
+    }
+
+    h3 {
+        color: #000;
+        margin: 0 1rem 0 0;
+    }
+
+    p {
+        font-size: 0.85rem;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    li {
+        font-size: 0.9rem;
+    }
+}

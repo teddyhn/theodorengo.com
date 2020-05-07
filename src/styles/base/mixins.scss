@@ -1,0 +1,7 @@
+/* Mixins */
+
+@mixin width-breakpoint {
+    @media (max-width: #{$width}) {
+        @content;
+    }
+}

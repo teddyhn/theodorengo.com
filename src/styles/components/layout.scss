@@ -1,6 +1,7 @@
 .container {
     max-width: $width;
-    margin: 0 auto;
+    margin: 160px auto 0 auto;
+    padding: 0 2rem;
 
     .section {
         margin: 4rem 0;
@@ -29,13 +30,31 @@
         width: 75%;
         font-size: 1.1rem;
     }
+
+    @include width-breakpoint {
+        .lead {
+            width: 100%;
+        }
+
+        img {
+            display: none;
+        }
+
+        .gatsby-image-wrapper {
+            display: none!important;
+        }
+    }
 }
 
 .skills {
     .toolbox {
         display: grid;
         grid-template-columns: 20% 20% 20% 20% 20%;
-        row-gap: 10px;
+        row-gap: 20px;
+
+        @include width-breakpoint {
+            grid-template-columns: 25% 25% 25% 25%;
+        }
 
         .skill-container {
             justify-self: center;

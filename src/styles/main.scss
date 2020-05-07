@@ -2,6 +2,7 @@
 
 // Config
 @import 'base/variables.scss';
+@import 'base/mixins.scss';
 
 // Reset
 @import 'base/reset.scss';
@@ -9,3 +10,7 @@
 // Components
 @import 'components/layout.scss';
 @import 'components/scaffolding.scss';
+@import 'components/navigation.scss';
+
+// Themes
+@import 'themes/dark.scss';

@@ -1,0 +1,38 @@
+$background: #1b2331;
+$accent: darken($background, 5%);
+
+.dark {
+    background: $background;
+
+    .nav-container {
+        background: $background;
+
+        a {
+            color: darken(#fff, 20%);
+
+            &:hover {
+                color: darken(#fff, 5%);
+            }
+        }
+    }
+
+    .scroll, .scroll .nav-container {
+        background: $accent;
+    }
+
+    h1, h2, h3, h4 {
+        color: #fff;
+    }
+
+    p {
+        color: darken(#fff, 20%);
+    }
+
+    .skill-container > span, li {
+        color: darken(#fff, 10%);
+    }
+
+    .project-screenshot > .project-caption {
+        color: darken(#fff, 25%);
+    }
+}

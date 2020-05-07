@@ -149,8 +149,12 @@
 .contact {
     text-align: center;
 
+    p {
+        font-size: 1.25rem;
+    }
+
     #email {
-        font-size: 4rem;
+        font-size: 2.75rem;
         cursor: pointer;
 
         &:hover {
@@ -159,22 +163,18 @@
         }
 
         @include width-breakpoint {
-            font-size: 3rem;
-        }
-
-        @include small-breakpoint {
             font-size: 2rem;
         }
     }
 }
 
-.linkedin {
+.linkedin, .github {
     text-align: center;
 
     a {
         color: $font-color;
         text-decoration: none;
-        font-size: 4rem;
+        font-size: 2.75rem;
 
         &:hover {
             color: $link-color;
@@ -182,10 +182,6 @@
         }
 
         @include width-breakpoint {
-            font-size: 3rem;
-        }
-
-        @include small-breakpoint {
             font-size: 2rem;
         }
     }

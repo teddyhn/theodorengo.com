@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from "react"
 import { Link } from "gatsby"
-import { DarkModeContext } from "../context/DarkModeContext";
+import { DarkModeContext } from "../context/DarkModeContext"
 
 export const Navigation = () => {
     const [scrolled, setScrolled] = useState(false);

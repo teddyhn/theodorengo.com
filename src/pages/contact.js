@@ -28,6 +28,9 @@ const ContactPage = () => {
                         <div className="linkedin">
                             <a href="https://www.linkedin.com/in/theodore-ngo/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                         </div>
+                        <div className="github">
+                            <a href="https://github.com/teddyhn" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </div>
                     </section>
                 </div>
             </Layout>

@@ -110,8 +110,13 @@ const IndexPage = ({ data }) => (
               <p>A front end client/game interface I built for a Flask API that demonstrates a room generation algorithm in a game appropriately titled FlaskRPG.</p>
               <div className="project-screenshot">
                 <a href="https://flask-rpg.com/" target="_blank" rel="noopener noreferrer"><Img style={{ maxWidth: '600px', margin: '0 auto' }} fluid={data.file2.childImageSharp.fluid} alt="FlaskRPG screenshot" /></a>
-                <p className="project-caption">Built using React with Redux, deployed via Netlify</p>
+                <p className="project-caption">Deployed via Netlify</p>
               </div>
+              <ul className="project-tech-stack">
+                <h4>Tech stack & info:</h4>
+                <li>React, Redux, and Canvas API for animations</li>
+                <li>Interfaced with Flask API to create seamless game UI for room traversal, among other game functions</li>
+              </ul>
               <ul className="project-features">
                 <h4>Features:</h4>
                 <li>Search mushrooms and tree stumps for loot</li>
@@ -128,8 +133,14 @@ const IndexPage = ({ data }) => (
               <p>A quick statistics reference tool for the multiplayer online battle arena Heroes of the Storm.</p>
               <div className="project-screenshot">
                 <a href="https://herobuilds.now.sh/" target="_blank" rel="noopener noreferrer"><Img style={{ maxWidth: '600px', margin: '0 auto' }} fluid={data.file3.childImageSharp.fluid} alt="HeroBuilds screenshot" /></a>
-                <p className="project-caption">Built using Next.js, deployed via Vercel</p>
+                <p className="project-caption">Deployed via Vercel</p>
               </div>
+              <ul className="project-tech-stack">
+                <h4>Tech stack & info:</h4>
+                <li>Next.js (React), Redux</li>
+                <li>Developed an intuitive, modern UI to display game statistics</li>
+                <li>Utilized server-side rendering to increase performance</li>
+              </ul>
               <ul className="project-features">
                 <h4>Features:</h4>
                 <li>Typeahead-like searching and filtering of data</li>
@@ -143,7 +154,13 @@ const IndexPage = ({ data }) => (
                 <a href="https://github.com/teddyhn/herobuilds-api" target="_blank" rel="noopener noreferrer"><h3>HeroBuilds API</h3></a>
                 <GithubButton href={"https://github.com/teddyhn/herobuilds-api"} data-size="large">Source</GithubButton>
               </div>
-              <p>The accompanying API for HeroBuilds. Built using Node.js with Puppeteer. The server scrapes the data from a similar website, packaging it into endpoints specific for the HeroBuilds use case. Deployed via Heroku.</p>
+              <p>The accompanying API for HeroBuilds. Deployed via Heroku.</p>
+              <ul className="project-tech-stack">
+                <h4>Tech stack & info:</h4>
+                <li>Node.js, Express.js, Puppeteer</li>
+                <li>Developed database-less API to scrape and cache data for HeroBuilds</li>
+                <li>Created endpoints to consume data specfic for HeroBuilds use case</li>
+              </ul>
               <ul className="project-features">
                 <h4>Features:</h4>
                 <li>Puppeteer runs a headless browser that accesses the appropriate pages to allow for data scraping</li>
@@ -156,7 +173,12 @@ const IndexPage = ({ data }) => (
                 <a href="https://github.com/DevDesk-Queue-bw/back-end" target="_blank" rel="noopener noreferrer"><h3>DevDesk Queue Back End</h3></a>
                 <GithubButton href={"https://github.com/DevDesk-Queue-bw/back-end"} data-size="large">Source</GithubButton>
               </div>
-              <p>A robust help desk ticket system. Built using Node.js with Express. Uses PostgreSQL as the RDBMS and Knex as the query builder. Deployed via Heroku.</p>
+              <p>A robust help desk ticket system. Deployed via Heroku.</p>
+              <ul className="project-tech-stack">
+                <h4>Tech stack & info:</h4>
+                <li>Node.js, Express.js, PostgresQL, Knex</li>
+                <li>Architected database and developed back end API using Knex as the query builder</li>
+              </ul>
               <ul className="project-features">
                 <h4>Features:</h4>
                 <li>Comprehensive API documentation</li>

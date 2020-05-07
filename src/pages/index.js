@@ -25,7 +25,7 @@ const IndexPage = ({ data }) => (
           <div className="intro">
             <div className="lead">
               <h1>Hi, I'm Theodore Ngo <span role="img" aria-label="Peace sign">✌</span></h1>
-              <p>But I go by Teddy. I'm a software developer specializing in JavaScript. My current flavor of choice is React, but I am always open to learning new technologies. Looking for opportunities!</p>
+              <p>But I go by Teddy. I'm a software developer specializing in JavaScript. Currently looking for opportunities!</p>
               <GithubButton href={"https://github.com/teddyhn"} data-size="large">teddyhn</GithubButton>
             </div>
             <Img style={{ borderRadius: '50%' }} fixed={data.file1.childImageSharp.fixed} alt="Teddy" />
@@ -33,7 +33,7 @@ const IndexPage = ({ data }) => (
         </section>
         <section className="section">
           <div className="skills">
-            <h2>Skills</h2>
+            <h2>Languages, Frameworks, & Libraries</h2>
             <p>A noncomprehensive list of the tools I've picked up along the way (in no particular order):</p>
             <div className="toolbox">
               <div className="skill-container">

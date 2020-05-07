@@ -15,7 +15,9 @@ $font-variant: normal;
 $font-weight: normal;
 $font-color: #454545;
 $light-font-color: rgba(0, 0, 0, 0.6);
-$light-font-color-hover: rgba(0, 0, 0, 0.8);
+$light-font-color-hover: rgba(0, 0, 0, 0.9);
+$link-color: #1a97f0;
+$link-color-hover: lighten($link-color, 10%);
 $font-family: Helvetica Neue, 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 $line-height: 1.6;
 

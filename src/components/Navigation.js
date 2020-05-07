@@ -25,9 +25,14 @@ export const Navigation = () => {
     return (
         <nav className={`nav ${scrolled ? 'scroll' : ''}`}>
             <div className="nav-container">
+                <div className="home">
+                    <Link to="/">
+                        <span role="img" aria-label="Home emoji">🏠</span>
+                    </Link>
+                </div>
                 <div className="links">
-                    <Link to="/">About</Link>
-                    <Link to="/">Get in touch</Link>
+                    <Link to="/me">About</Link>
+                    <Link to="/contact">Get in touch</Link>
                     <button
                         className="dark-mode-toggle"
                         onClick={toggleDarkMode}

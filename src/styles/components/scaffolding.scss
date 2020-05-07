@@ -5,4 +5,7 @@
 html {
     font: $font-style $font-variant $font-weight #{$font-size}/#{$line-height} $font-family;
     font-family: $font-family;
+
+    // Prevent scrollbar from adding up to width of page
+    overflow-y: scroll;
 }

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from "react"
 import { Link } from "gatsby"
-import { DarkModeContext } from "../context/DarkModeContext";
+import { DarkModeContext } from "../context/DarkModeContext"
 
 export const Navigation = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -25,9 +25,14 @@ export const Navigation = () => {
     return (
         <nav className={`nav ${scrolled ? 'scroll' : ''}`}>
             <div className="nav-container">
+                <div className="home">
+                    <Link to="/">
+                        <span role="img" aria-label="Home emoji">🏠</span>
+                    </Link>
+                </div>
                 <div className="links">
-                    <Link to="/">About</Link>
-                    <Link to="/">Get in touch</Link>
+                    <Link to="/me" activeClassName="active">About</Link>
+                    <Link to="/contact" activeClassName="active">Get in touch</Link>
                     <button
                         className="dark-mode-toggle"
                         onClick={toggleDarkMode}

@@ -12,7 +12,7 @@
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 2.25rem;
     }
 
     h2 {
@@ -110,5 +110,83 @@
 
     li {
         font-size: 0.9rem;
+    }
+}
+
+.about-me {
+    a {
+        text-decoration: none;
+        color: $link-color;
+
+        &:hover {
+            color: $link-color-hover;
+        }
+    }
+}
+
+.stuff-i-use {
+    h2 {
+       font-size: 1.75rem; 
+    }
+
+    ul {
+        font-size: 1.1rem;
+        color: $font-color;
+    }
+}
+
+.resume {
+    a {
+        text-decoration: none;
+        color: $link-color;
+
+        &:hover {
+            color: $link-color-hover;
+        }
+    }
+}
+
+.contact {
+    text-align: center;
+
+    #email {
+        font-size: 4rem;
+        cursor: pointer;
+
+        &:hover {
+            color: $link-color;
+            transition: 0.15s ease-in;
+        }
+
+        @include width-breakpoint {
+            font-size: 3rem;
+        }
+
+        @include small-breakpoint {
+            font-size: 2rem;
+        }
+    }
+}
+
+.linkedin {
+    text-align: center;
+
+    a {
+        color: $font-color;
+        text-decoration: none;
+        font-size: 4rem;
+
+        &:hover {
+            color: $link-color;
+            transition: 0.15s ease-in;
+        }
+
+        @include width-breakpoint {
+            font-size: 3rem;
+        }
+
+        @include small-breakpoint {
+            font-size: 2rem;
+        }
     }
 }

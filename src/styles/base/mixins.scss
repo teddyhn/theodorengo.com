@@ -5,3 +5,9 @@
         @content;
     }
 }
+
+@mixin small-breakpoint {
+    @media (max-width: #{$small}) {
+        @content;
+    }
+}

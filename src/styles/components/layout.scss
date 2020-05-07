@@ -145,3 +145,48 @@
         }
     }
 }
+
+.contact {
+    text-align: center;
+
+    #email {
+        font-size: 4rem;
+        cursor: pointer;
+
+        &:hover {
+            color: $link-color;
+            transition: 0.15s ease-in;
+        }
+
+        @include width-breakpoint {
+            font-size: 3rem;
+        }
+
+        @include small-breakpoint {
+            font-size: 2rem;
+        }
+    }
+}
+
+.linkedin {
+    text-align: center;
+
+    a {
+        color: $font-color;
+        text-decoration: none;
+        font-size: 4rem;
+
+        &:hover {
+            color: $link-color;
+            transition: 0.15s ease-in;
+        }
+
+        @include width-breakpoint {
+            font-size: 3rem;
+        }
+
+        @include small-breakpoint {
+            font-size: 2rem;
+        }
+    }
+}

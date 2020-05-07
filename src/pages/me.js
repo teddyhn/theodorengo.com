@@ -12,7 +12,7 @@ const AboutPage = () => (
                 <section className="section">
                     <div className="about-me">
                         <h1>About me</h1>
-                        <p>I'm Theodore Ngo, but you can call me Teddy. I'm a software developer living in San Jose, CA but willing to relocate just about anywhere. I work primarily with React to build great user experiences. I'm continually learning, and that includes new (to me) technologies!</p>
+                        <p>I'm Theodore Ngo, but you can call me Teddy. I'm a software developer living in San Jose, CA but willing to relocate just about anywhere. I work primarily in React to build great user experiences. I'm continually learning, and that includes new (to me) technologies!</p>
                         <p>After graduating from UC Santa Barbara with a degree in Biopsychology, I decided to forgo studying the intricate systems of the brain to study the intricate (but much more logical) systems of software development. I enrolled in Lambda School, where I learn full stack web development and computer science remotely. When I'm not developing, I like to chat with friends over Discord, play online collectible card games, and turn dark mode on on every app I use. Interested in what I can do? <Link to="/contact">Get in touch.</Link></p>
                     </div>
                 </section>

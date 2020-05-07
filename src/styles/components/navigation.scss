@@ -51,10 +51,15 @@
         align-items: center;
         user-select: none;
 
+        .active {
+            color: $light-font-color-hover;
+        }
+
         .dark-mode-toggle {
             cursor: pointer;
             background: none;
             border: none;
+            padding: 0;
 
             &:focus {
                 outline: none;

@@ -31,8 +31,8 @@ export const Navigation = () => {
                     </Link>
                 </div>
                 <div className="links">
-                    <Link to="/me">About</Link>
-                    <Link to="/contact">Get in touch</Link>
+                    <Link to="/me" activeClassName="active">About</Link>
+                    <Link to="/contact" activeClassName="active">Get in touch</Link>
                     <button
                         className="dark-mode-toggle"
                         onClick={toggleDarkMode}

@@ -107,7 +107,7 @@ const IndexPage = ({ data }) => (
                 <a href="https://flask-rpg.com/" target="_blank" rel="noopener noreferrer"><h3>FlaskRPG</h3></a>
                 <GithubButton href={"https://github.com/teddyhn/FlaskRPG"} data-size="large">Source</GithubButton>
               </div>
-              <p>A front end client/game interface I built for a Flask API that demonstrates a room generation algorithm in a game appropriately titled FlaskRPG.</p>
+              <p>A front end/user interface I built for a Flask API that demonstrates a room generation algorithm in a game appropriately titled FlaskRPG.</p>
               <div className="project-screenshot">
                 <a href="https://flask-rpg.com/" target="_blank" rel="noopener noreferrer"><Img style={{ maxWidth: '600px', margin: '0 auto' }} fluid={data.file2.childImageSharp.fluid} alt="FlaskRPG screenshot" /></a>
                 <p className="project-caption">Deployed via Netlify</p>
@@ -115,6 +115,7 @@ const IndexPage = ({ data }) => (
               <ul className="project-tech-stack">
                 <h4>Tech stack & info:</h4>
                 <li>React, Redux, and Canvas API for animations</li>
+                <li>Solely responsible for developing front end and integrating creative assets</li>
                 <li>Interfaced with Flask API to create seamless game UI for room traversal, among other game functions</li>
               </ul>
               <ul className="project-features">

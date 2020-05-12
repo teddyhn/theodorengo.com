@@ -24,7 +24,6 @@ const AboutPage = () => (
                             <li>Editor: VS Code</li>
                             <li>Monitor(s): BenQ XL2546 & MSI G24C</li>
                             <li>Keyboard: Leopold FC660C</li>
-                            <li>Mouse: Razer Viper Ultimate</li>
                             <li>Headphones: Sennheiser HD660 S & AirPods Pro</li>
                         </ul>
                     </div>

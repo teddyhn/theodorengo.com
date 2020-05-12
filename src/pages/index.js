@@ -176,7 +176,7 @@ const IndexPage = ({ data }) => (
               <p>A robust help desk ticket system. Deployed via Heroku.</p>
               <ul className="project-tech-stack">
                 <h4>Tech stack & info:</h4>
-                <li>Node.js, Express.js, PostgresQL, Knex</li>
+                <li>Node.js, Express.js, PostgreSQL, Knex</li>
                 <li>Architected database and developed back end API using Knex as the query builder</li>
               </ul>
               <ul className="project-features">

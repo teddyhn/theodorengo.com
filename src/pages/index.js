@@ -138,7 +138,7 @@ const IndexPage = ({ data }) => (
               <ul className="project-tech-stack">
                 <h4>Tech stack & info:</h4>
                 <li>Next.js (React), Redux</li>
-                <li>Developed an intuitive, modern UI to display game statistics</li>
+                <li>Developed an intuitive, modern UI to visualize and sort statistical data</li>
                 <li>Utilized server-side rendering to increase performance</li>
               </ul>
               <ul className="project-features">

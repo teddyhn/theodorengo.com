@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import DarkModeProvider from "../context/DarkModeContext"
 import Layout from "../layout"
 import Navigation from '../components/Navigation'
+import resumepdf from '../../public/Theodore-Ngo-Resume.pdf'
 
 const AboutPage = () => (
     <DarkModeProvider>
@@ -32,7 +33,7 @@ const AboutPage = () => (
                     <div className="resume">
                         <h2>Looking for a resume?</h2>
                         <p>
-                            You can find it <a href="https://docs.google.com/document/d/1Ri-Brva8LjrTxsQVMT8OK0WQXsVud8ZFuQmf4kac0vs/edit?usp=sharing" target="_blank" rel="noopener noreferrer">here.</a>  
+                            You can find it <a href={resumepdf} target="_blank" rel="noopener noreferrer">here.</a> 
                         </p>
                     </div>
                 </section>

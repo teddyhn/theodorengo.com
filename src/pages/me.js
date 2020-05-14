@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import DarkModeProvider from "../context/DarkModeContext"
 import Layout from "../layout"
 import Navigation from '../components/Navigation'
-import resumepdf from '../../public/static/Theodore-Ngo-Resume.pdf'
+import resumepdf from '../../static/Theodore-Ngo-Resume.pdf'
 
 const AboutPage = () => (
     <DarkModeProvider>

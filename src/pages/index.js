@@ -25,7 +25,7 @@ const IndexPage = ({ data }) => (
           <div className="intro">
             <div className="lead">
               <h1>Hi, I'm Theodore Ngo <span role="img" aria-label="Peace sign">✌</span></h1>
-              <p>But you can also call me Teddy. I'm a software developer focusing on the front end building great user experiences. Currently looking for opportunities!</p>
+              <p>But you can also call me Teddy. I'm a software developer from San Jose, CA specializing in JavaScript. Currently looking for opportunities!</p>
               <GithubButton href={"https://github.com/teddyhn"} data-size="large">teddyhn</GithubButton>
             </div>
             <Img style={{ borderRadius: '50%' }} fixed={data.file1.childImageSharp.fixed} alt="Teddy" />

@@ -50,4 +50,8 @@ $accent: darken($background, 5%);
             }
         }
     }
+
+    .project {
+        background-color: darken($background, 2.5%)
+    }
 }

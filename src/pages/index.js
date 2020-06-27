@@ -25,10 +25,9 @@ const IndexPage = ({ data }) => (
           <div className="intro">
             <div className="lead">
               <h1>Hi, I'm Theodore Ngo <span role="img" aria-label="Peace sign">✌</span></h1>
-              <p>But you can also call me Teddy. I'm a software developer from San Jose, CA specializing in JavaScript. Currently looking for opportunities!</p>
+              <p>But you can call me Teddy. I'm a software engineer living in San Jose, CA specializing in JavaScript. Currently looking for opportunities!</p>
               <GithubButton href={"https://github.com/teddyhn"} data-size="large">teddyhn</GithubButton>
             </div>
-            <Img style={{ borderRadius: '50%' }} fixed={data.file1.childImageSharp.fixed} alt="Teddy" />
           </div>
         </section>
         <section className="section">
@@ -196,15 +195,6 @@ const IndexPage = ({ data }) => (
 
 export const query = graphql`
   query {
-    file1: file(relativePath: { eq: "me.jpg" }) {
-      childImageSharp {
-        # Specify the image processing specifications right in the query.
-        # Makes it trivial to update as your page's design changes.
-        fixed(width: 125, quality: 100) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
     file2: file(relativePath: { eq: "flaskrpg.png" }) {
       childImageSharp {
         fluid(maxWidth: 600) {

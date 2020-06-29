@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
         bodyAttributes={{
           class: `theme ${themeClass}`,
         }}
-        title='Theodore Ngo | Software Developer'
+        title='Theodore Ngo'
       />
       <main>{children}</main>
     </>

@@ -77,9 +77,9 @@
 
 .projects {
     .project {
-        background-color: darken(#fff, 5%);
+        background-color: darken(#fff, 7.5%);
         margin-bottom: 3rem;
-        padding: 1rem;
+        padding: 2rem 2.5rem;
         border-radius: 10px;
     }
 
@@ -96,6 +96,16 @@
         p {
             color: $light-font-color;
         }
+    }
+
+    .project-tech-stack {
+        margin-bottom: 2rem;
+    }
+
+    .project-tech-stack, .project-features {
+        background-color: darken(#fff, 2.5%);
+        padding: 0.75rem 2.5rem 2rem 2.5rem;
+        border-radius: 10px;
     }
 
     h3 {

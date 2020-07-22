@@ -52,6 +52,10 @@ $accent: darken($background, 5%);
     }
 
     .project {
-        background-color: darken($background, 2.5%)
+        background-color: darken($background, 5%)
+    }
+
+    .project-tech-stack, .project-features {
+        background-color: darken($background, 2.5%);
     }
 }

@@ -168,24 +168,6 @@ const IndexPage = ({ data }) => (
                 <li>Uses node-cron task scheduler to periodically update cached data</li>
               </ul>
             </div>
-            <div className="project">
-              <div className="project-title">
-                <a href="https://github.com/DevDesk-Queue-bw/back-end" target="_blank" rel="noopener noreferrer"><h3>DevDesk Queue Back End</h3></a>
-                <GithubButton href={"https://github.com/DevDesk-Queue-bw/back-end"} data-size="large">Source</GithubButton>
-              </div>
-              <p>A robust help desk ticket system. Deployed via Heroku.</p>
-              <ul className="project-tech-stack">
-                <h4>Tech stack & info:</h4>
-                <li>Node.js, Express.js, PostgreSQL, Knex</li>
-                <li>Architected database and developed back end API using Knex as the query builder</li>
-              </ul>
-              <ul className="project-features">
-                <h4>Features:</h4>
-                <li>Comprehensive API documentation</li>
-                <li>User log in and registration with roles</li>
-                <li>RESTful API architecture for ticket manipulation</li>
-              </ul>
-            </div>
           </div> 
         </section>
       </div>

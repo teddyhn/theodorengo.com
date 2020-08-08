@@ -2,13 +2,13 @@ import React, { createContext } from "react"
 import useLocalStorage from '../hooks/useLocalStorage'
 
 export const DarkModeContext = createContext({
-    darkMode: false,
+    darkMode: true,
     toggleDarkMode: () => {},
 });
 
 
 export const DarkModeProvider = ({ children }) => {
-    const [darkMode, setDarkMode] = useLocalStorage('darkmode', false);
+    const [darkMode, setDarkMode] = useLocalStorage('darkmode', true);
 
     function toggleDarkMode() {
         setDarkMode(darkMode => !darkMode);

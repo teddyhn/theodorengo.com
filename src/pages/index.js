@@ -15,7 +15,7 @@ const IndexPage = ({ data }) => (
           <div className="intro">
             <div className="lead">
               <h1>Hi, I'm Theodore Ngo <span role="img" aria-label="Peace sign">✌</span></h1>
-              <p>But you can call me Teddy. I'm a software engineer building performant user experiences in JavaScript.</p>
+              <p>But you can call me Teddy. I'm a software engineer building user experiences in JavaScript with an emphasis on modern web technologies.</p>
               <GithubButton href={"https://github.com/teddyhn"} data-size="large">teddyhn</GithubButton>
             </div>
           </div>

@@ -31,7 +31,7 @@ const IndexPage = ({ data }) => (
               </div>
               <p>Play Connect Four... in 3D!</p>
               <div className="project-screenshot">
-                <a href="https://3d-connect-four.netlify.app/" target="_blank" rel="noopener noreferrer"><Img style={{ maxWidth: '600px', margin: '0 auto' }} fluid={data.file3.childImageSharp.fluid} alt="HeroBuilds screenshot" /></a>
+                <a href="https://3d-connect-four.netlify.app/" target="_blank" rel="noopener noreferrer"><img src={"https://i.gyazo.com/6850bdc7f95673df0cf74a1423ffc425.gif"} alt="3D Connect Four .gif" style={{ maxWidth: "600px" }} /></a>
                 <p className="project-caption">Deployed via Netlify</p>
               </div>
               <ul className="project-tech-stack">
@@ -53,9 +53,9 @@ const IndexPage = ({ data }) => (
                 <a href="https://flask-rpg.com/" target="_blank" rel="noopener noreferrer"><h3>FlaskRPG</h3></a>
                 <GithubButton href={"https://github.com/teddyhn/FlaskRPG"} data-size="large">Source</GithubButton>
               </div>
-              <p>A 2D game demonstrating an algorithm that generates 4-way connected rooms.</p>
+              <p>A 2D game demonstrating an algorithm that procedurally generates 4-way connected rooms.</p>
               <div className="project-screenshot">
-                <a href="https://flask-rpg.com/" target="_blank" rel="noopener noreferrer"><Img style={{ maxWidth: '600px', margin: '0 auto' }} fluid={data.file2.childImageSharp.fluid} alt="FlaskRPG screenshot" /></a>
+                <a href="https://flask-rpg.com/" target="_blank" rel="noopener noreferrer"><img src={"https://i.gyazo.com/eddf1c88f472aaed4f7bb732281107ad.gif"} alt="FlaskRPG screenshot" style={{ maxWidth: "600px" }} /></a>
                 <p className="project-caption">Deployed via Netlify</p>
               </div>
               <ul className="project-tech-stack">
@@ -81,13 +81,6 @@ const IndexPage = ({ data }) => (
 export const query = graphql`
   query {
     file2: file(relativePath: { eq: "flaskrpg.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 600) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    file3: file(relativePath: { eq: "3dconnectfour.png" }) {
       childImageSharp {
         fluid(maxWidth: 600) {
           ...GatsbyImageSharpFluid

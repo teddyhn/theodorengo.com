@@ -13,7 +13,7 @@ const AboutPage = () => (
                 <section className="section">
                     <div className="about-me">
                         <h1>About me</h1>
-                        <p>I'm Teddy, a software engineer living in San Jose, CA. I work primarily in JavaScript to build performant user experiences.</p>
+                        <p>I'm Teddy, a software engineer living in San Jose, CA. I work primarily in JavaScript to build user experiences.</p>
                         <p>After graduating from UC Santa Barbara with a degree in Biopsychology, I decided to pursue a career in software development. I enrolled in Lambda School, where I learned full stack web development and computer science remotely. When I'm not developing, I like to chat with friends over Discord, play online collectible card games, and turn dark mode on on every app I use. Interested in what I can do? <Link to="/contact">Get in touch.</Link></p>
                     </div>
                 </section>

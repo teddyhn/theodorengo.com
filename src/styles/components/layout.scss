@@ -93,6 +93,11 @@
     }
 
     .project-screenshot {
+        a {
+            display: flex;
+            justify-content: center;
+        }
+
         p {
             color: $light-font-color;
         }

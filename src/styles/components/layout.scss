@@ -79,7 +79,7 @@
     .project {
         background-color: darken(#fff, 7.5%);
         margin-bottom: 3rem;
-        padding: 2rem 2.5rem;
+        padding: 3rem 3rem;
         border-radius: 10px;
     }
 
@@ -96,6 +96,10 @@
         a {
             display: flex;
             justify-content: center;
+
+            img {
+                width: 100%;
+            }
         }
 
         p {

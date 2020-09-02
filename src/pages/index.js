@@ -31,7 +31,7 @@ const IndexPage = ({ data }) => (
               </div>
               <p>Play Connect Four... in 3D!</p>
               <div className="project-screenshot">
-                <a href="https://3d-connect-four.netlify.app/" target="_blank" rel="noopener noreferrer"><img src={"https://i.gyazo.com/6850bdc7f95673df0cf74a1423ffc425.gif"} alt="3D Connect Four .gif" style={{ maxWidth: "600px" }} /></a>
+                <a href="https://3d-connect-four.netlify.app/" target="_blank" rel="noopener noreferrer"><img src={"https://i.gyazo.com/6850bdc7f95673df0cf74a1423ffc425.gif"} alt="3D Connect Four .gif" /></a>
                 <p className="project-caption">Deployed via Netlify</p>
               </div>
               <ul className="project-tech-stack">
@@ -55,7 +55,7 @@ const IndexPage = ({ data }) => (
               </div>
               <p>A 2D game demonstrating an algorithm that procedurally generates 4-way connected rooms.</p>
               <div className="project-screenshot">
-                <a href="https://flask-rpg.com/" target="_blank" rel="noopener noreferrer"><img src={"https://i.gyazo.com/eddf1c88f472aaed4f7bb732281107ad.gif"} alt="FlaskRPG screenshot" style={{ maxWidth: "600px" }} /></a>
+                <a href="https://flask-rpg.com/" target="_blank" rel="noopener noreferrer"><img src={"https://i.gyazo.com/eddf1c88f472aaed4f7bb732281107ad.gif"} alt="FlaskRPG screenshot" /></a>
                 <p className="project-caption">Deployed via Netlify</p>
               </div>
               <ul className="project-tech-stack">
